@@ -1,20 +1,13 @@
-/*
-Theme Name:       SlickBiz - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
 /* ==========================================================================
    IMPORT GOOGLE FONTS
    ========================================================================== */
-@import url("../../../../../https@fonts.googleapis.com/css@family=Rubik_3A400,400i,500");
-@import url("../../../../../https@fonts.googleapis.com/css@family=Poppins_3A400,500,600");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600");
 /* ==========================================================================
   GENERAL
    ========================================================================== */
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
@@ -52,7 +45,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: #151948;
@@ -100,7 +93,7 @@ a:not([href]):not([tabindex]):hover {
 .form-control:focus {
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .section-header {
@@ -132,7 +125,7 @@ a:not([href]):not([tabindex]):hover {
   font-size: 14px;
   padding: 10px 30px;
   border-radius: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
   color: #fff;
@@ -149,7 +142,7 @@ a:not([href]):not([tabindex]):hover {
 .btn:focus,
 .btn:active {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
@@ -170,7 +163,7 @@ a:not([href]):not([tabindex]):hover {
 .btn-common:hover {
   color: #fff;
   -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .btn-light-bg {
@@ -222,7 +215,7 @@ a:not([href]):not([tabindex]):hover {
   background-color: transparent;
   border-color: #fff;
   -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .btn-lg {
@@ -319,7 +312,7 @@ button:focus {
 
 .btn-subtitle {
   color: #191c1e;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #dbecff;
   text-align: center;
   border-radius: 30px;
@@ -418,7 +411,7 @@ button:focus {
 #loader-1:before {
   z-index: 100;
   -webkit-animation: spin 2s infinite;
-          animation: spin 2s infinite;
+  animation: spin 2s infinite;
 }
 
 #loader-1:after {
@@ -476,7 +469,7 @@ button:focus {
   background: #5533ff;
   background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
   -webkit-box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
-          box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+  box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   z-index: 9999999;
 }
 
@@ -502,7 +495,7 @@ button:focus {
   background: #5533ff;
   background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%) !important;
   -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
   z-index: 9999;
   padding: 5px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -539,13 +532,13 @@ button:focus {
   font-size: 16px;
   padding: 8px 0px;
   margin-left: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   font-weight: 500;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -721,23 +714,23 @@ button:focus {
 
 .navbar-nav {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-nav {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
 @media (max-width: 767px) {
   .navbar-nav {
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
@@ -769,7 +762,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -782,7 +775,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 2px;
@@ -869,18 +862,21 @@ button:focus {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .navbar-nav .nav-item.active > a, .navbar-nav .nav-item:hover > a {
+  .navbar-nav .nav-item.active > a,
+  .navbar-nav .nav-item:hover > a {
     color: #3ecf8e;
   }
 }
 
 @media (max-width: 767px) {
-  .navbar-nav .nav-item.active > a, .navbar-nav .nav-item:hover > a {
+  .navbar-nav .nav-item.active > a,
+  .navbar-nav .nav-item:hover > a {
     color: #3ecf8e;
   }
 }
 
-.navbar-nav .nav-item.active > a::after, .navbar-nav .nav-item:hover > a::after {
+.navbar-nav .nav-item.active > a::after,
+.navbar-nav .nav-item:hover > a::after {
   width: 100%;
 }
 
@@ -954,7 +950,8 @@ button:focus {
   color: #333;
 }
 
-.navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
+.navbar-nav .nav-item .sub-menu li a.active,
+.navbar-nav .nav-item .sub-menu li a:hover {
   padding-left: 25px;
   color: #e33333;
 }
@@ -1095,7 +1092,7 @@ button:focus {
   border: 1px solid #fff;
   color: #3ecf8e !important;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-          box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   width: 180px;
   height: 50px;
   padding: 15px 15px;
@@ -1372,7 +1369,7 @@ button:focus {
 #download-app .download-info .downlaod-btn a.play-store {
   font-size: 12px;
   -webkit-box-shadow: 0px 10px 20px 2px rgba(255, 112, 79, 0.24);
-          box-shadow: 0px 10px 20px 2px rgba(255, 112, 79, 0.24);
+  box-shadow: 0px 10px 20px 2px rgba(255, 112, 79, 0.24);
   border-radius: 35px;
   text-transform: inherit;
   text-align: left;
@@ -1568,11 +1565,11 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #showcase .showcase-slider .screenshot-thumb:hover .hover-content {
@@ -1700,9 +1697,9 @@ button:focus {
   top: 30%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   display: block;
   width: 32px;
   height: 44px;
@@ -1718,14 +1715,14 @@ button:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   display: block;
   width: 100px;
   height: 100px;
   background: #fff;
   border-radius: 50%;
   -webkit-animation: pulse-border 1500ms ease-out infinite;
-          animation: pulse-border 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
 }
 
 #testimonial .video-play-button:after {
@@ -1735,7 +1732,7 @@ button:focus {
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   display: block;
   width: 100px;
   height: 100px;
@@ -1774,12 +1771,12 @@ button:focus {
 @-webkit-keyframes pulse-border {
   0% {
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     opacity: 1;
   }
   100% {
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
 }
@@ -1787,12 +1784,12 @@ button:focus {
 @keyframes pulse-border {
   0% {
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     opacity: 1;
   }
   100% {
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-            transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
 }
@@ -1987,7 +1984,7 @@ button:focus {
 
 #blog .blog-item-wrapper:hover {
   -webkit-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
-          box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+  box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   border-color: #3ecf8e;
@@ -2085,7 +2082,7 @@ button:focus {
 
 #blog2 .blog-item-wrapper:hover {
   -webkit-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
-          box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+  box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   border-color: #ff704f;
@@ -2177,12 +2174,13 @@ button:focus {
   -webkit-transition: -webkit-transform 0.2s linear, -webkit-box-shadow 0.2s linear;
   transition: -webkit-transform 0.2s linear, -webkit-box-shadow 0.2s linear;
   transition: transform 0.2s linear, box-shadow 0.2s linear;
-  transition: transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear, -webkit-box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear, -webkit-transform 0.2s linear,
+    -webkit-box-shadow 0.2s linear;
 }
 
 #blog .blog-item-wrapper:hover {
   -webkit-box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
-          box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
+  box-shadow: 0 10px 50px 0 rgba(84, 110, 122, 0.35);
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
@@ -2238,8 +2236,8 @@ button:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 #blog-single .blog-comment .comment-list .children {
@@ -2322,7 +2320,7 @@ button:focus {
   border: 1px solid #ff704f;
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 #subscribe .form-control {
@@ -2383,7 +2381,7 @@ button:focus {
   border: 1px solid #3ecf8e;
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background: #e5fff3;
 }
 
@@ -2402,7 +2400,7 @@ button:focus {
 #footer-Content .form-control:focus {
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background: #e5fff3;
 }
 

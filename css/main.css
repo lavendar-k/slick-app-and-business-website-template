@@ -1,10 +1,5 @@
-/*
-Template Name: Inspire - Bootstrap 4 Admin Dashboard
-Author: UIdeck
-Website: www.uideck.com
-File: Main Css File
-*/
-@import url("../../../../https@fonts.googleapis.com/css@family=Roboto_3A400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
 html {
   overflow-x: hidden;
 }
@@ -12,7 +7,7 @@ html {
 body {
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -23,7 +18,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #515365;
   font-weight: normal;
   line-height: 1.5;
@@ -47,21 +47,23 @@ p {
   color: #8a8a8a;
   line-height: 1.8;
 }
-ul, ol {
+ul,
+ol {
   list-style: outside none none;
   margin: 0;
   padding: 0;
 }
-ul li, ol li {
+ul li,
+ol li {
   list-style: none;
 }
-.section-padding{
+.section-padding {
   padding: 60px 0;
 }
-.section-header{
+.section-header {
   margin-bottom: 30px;
 }
-.section-title{
+.section-title {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
@@ -106,12 +108,12 @@ ul li, ol li {
   background-color: transparent;
   border-color: #dbdde0;
 }
-.btn-default:hover{
+.btn-default:hover {
   background-color: #fff;
   border-color: #fff;
 }
 
-.btn-lg{
+.btn-lg {
   padding: 14px 33px;
   text-transform: uppercase;
   font-size: 14px;
@@ -138,14 +140,14 @@ button:focus {
   background: #1d213a;
   opacity: 0.9;
 }
-#hero-area .logo-wrap{
+#hero-area .logo-wrap {
   margin-bottom: 10px;
 }
 #hero-area .contents {
   padding: 70px 50px 0px;
 }
 
-#hero-area .contents .head-title{
+#hero-area .contents .head-title {
   color: #fff;
   font-size: 30px;
   font-weight: 400;
@@ -177,17 +179,17 @@ button:focus {
 }
 
 #hero-area .banner_bottom_btn i:hover {
-  color: #FD6E74;
+  color: #fd6e74;
 }
-.sp-about{
+.sp-about {
   margin-bottom: 30px;
 }
-.sp-about li{
+.sp-about li {
   display: inline-block;
   margin-right: 10px;
   margin-top: 40px;
 }
-.sp-about li .sp-title{
+.sp-about li .sp-title {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
@@ -195,27 +197,27 @@ button:focus {
 }
 
 /* Item box */
-#demo{
+#demo {
   background: #f1f2f7;
 }
-.item-boxes{
+.item-boxes {
   text-align: center;
   border-radius: 4px;
   margin-bottom: 30px;
   width: 100%;
   background: #fff;
   position: relative;
-  box-shadow: 0 2px 15px rgba(0,0,0,.05), 0 -1px 0 rgba(0,0,0,.01);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05), 0 -1px 0 rgba(0, 0, 0, 0.01);
   webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.item-boxes .demo-title{
+.item-boxes .demo-title {
   font-size: 22px;
   padding: 15px 0;
   margin-bottom: 0;
 }
-.item-boxes .demo-title:hover{
+.item-boxes .demo-title:hover {
   color: #e22a6f;
 }
 
@@ -227,7 +229,7 @@ button:focus {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
-.services-item .icon{
+.services-item .icon {
   margin-bottom: 10px;
 }
 .services-item .icon i {
@@ -250,7 +252,7 @@ button:focus {
 .services-item .services-content h3 a:hover {
   color: #e22a6f;
 }
-.services-item .services-content p{
+.services-item .services-content p {
   margin-bottom: 0;
 }
 .services-item:hover {
@@ -266,9 +268,9 @@ footer {
   margin-bottom: 0;
   color: #fff;
 }
-.site-info p a{
+.site-info p a {
   color: #fff;
 }
-.site-info p a:hover{
-  color:  #e22a6f;
+.site-info p a:hover {
+  color: #e22a6f;
 }
