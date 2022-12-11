@@ -1,0 +1,274 @@
+/*
+Template Name: Inspire - Bootstrap 4 Admin Dashboard
+Author: UIdeck
+Website: www.uideck.com
+File: Main Css File
+*/
+@import url("../../../../https@fonts.googleapis.com/css@family=Roboto_3A400,500,700");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  line-height: 25px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #515365;
+  font-weight: normal;
+  line-height: 1.5;
+}
+a {
+  color: #8a8a8a;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+a:hover {
+  text-decoration: none;
+  color: #e22a6f;
+}
+a a:focus {
+  outline: none;
+}
+p {
+  color: #8a8a8a;
+  line-height: 1.8;
+}
+ul, ol {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+ul li, ol li {
+  list-style: none;
+}
+.section-padding{
+  padding: 60px 0;
+}
+.section-header{
+  margin-bottom: 30px;
+}
+.section-title{
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: inline-block;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-common {
+  background-color: #e22a6f;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.btn-common:hover {
+  background: #101010;
+  color: #fff;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.btn-default {
+  color: #fff;
+  background-color: transparent;
+  border-color: #dbdde0;
+}
+.btn-default:hover{
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-lg{
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+button:focus {
+  outline: none !important;
+}
+
+/* ==========================================================================
+ Hero Area Style
+ ========================================================================== */
+#hero-area {
+  background: #1a2942;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#hero-area .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #1d213a;
+  opacity: 0.9;
+}
+#hero-area .logo-wrap{
+  margin-bottom: 10px;
+}
+#hero-area .contents {
+  padding: 70px 50px 0px;
+}
+
+#hero-area .contents .head-title{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#hero-area .contents p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+}
+
+#hero-area .contents .btn {
+  margin: 20px 20px 0px 0px;
+  text-transform: uppercase;
+}
+
+#hero-area .banner_bottom_btn {
+  margin-top: 40px;
+}
+
+#hero-area .banner_bottom_btn i {
+  color: #fff;
+  font-size: 48px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#hero-area .banner_bottom_btn i:hover {
+  color: #FD6E74;
+}
+.sp-about{
+  margin-bottom: 30px;
+}
+.sp-about li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.sp-about li .sp-title{
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Item box */
+#demo{
+  background: #f1f2f7;
+}
+.item-boxes{
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 100%;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 2px 15px rgba(0,0,0,.05), 0 -1px 0 rgba(0,0,0,.01);
+  webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.item-boxes .demo-title{
+  font-size: 22px;
+  padding: 15px 0;
+  margin-bottom: 0;
+}
+.item-boxes .demo-title:hover{
+  color: #e22a6f;
+}
+
+/* Services Item */
+.services-item {
+  padding: 15px 10px;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+.services-item .icon{
+  margin-bottom: 10px;
+}
+.services-item .icon i {
+  color: #e22a6f;
+  font-size: 42px;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+}
+.services-item .services-content h3 {
+  margin-bottom: 10px;
+}
+.services-item .services-content h3 a {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #484848;
+}
+.services-item .services-content h3 a:hover {
+  color: #e22a6f;
+}
+.services-item .services-content p{
+  margin-bottom: 0;
+}
+.services-item:hover {
+  border-color: #e22a6f;
+}
+footer {
+  background: #333;
+  padding: 30px 0px 30px;
+  text-align: center;
+}
+.site-info p {
+  line-height: 34px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.site-info p a{
+  color: #fff;
+}
+.site-info p a:hover{
+  color:  #e22a6f;
+}

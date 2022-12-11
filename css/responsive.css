@@ -1,0 +1,74 @@
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #hero-area .contents{
+    padding: 25px 50px 0px;
+  }
+  #hero-area .contents .head-title{
+    font-size: 22px;
+  }
+  #hero-area .contents .btn{
+    margin: 0px 20px 0px 0px;
+  }
+  #hero-area .logo-wrap{
+    margin-bottom: 0;
+  }
+  .sp-about{
+    margin-bottom: 12px;
+  }
+  .sp-about li{
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #hero-area .contents .btn{
+    margin: 15px 15px 0px 0px;
+  }
+  .btn-lg{
+    padding: 10px 20px;
+  }
+  #hero-area .contents{
+    padding: 30px 20px 0px;
+  }
+  #hero-area .contents .head-title{
+    font-size: 20px;
+  }
+  .sp-about li{
+    margin-right: 5px;
+  }
+  .sp-about li .sp-title{
+    font-size: 18px;
+  }
+  .sp-about li .sp-desc{
+    font-size: 12px;
+  }
+  .intro-img{
+    margin-top: 30px;
+  }
+}
+/* mobile or only mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+  #hero-area .contents .btn{
+    margin: 15px 15px 0px 0px;
+  }
+  .btn-lg{
+    padding: 10px 20px;
+  }
+  #hero-area .contents{
+    padding: 30px 20px 0px;
+  }
+  #hero-area .contents .head-title{
+    font-size: 20px;
+  }
+  .sp-about li{
+    margin-right: 5px;
+  }
+  .sp-about li .sp-title{
+    font-size: 18px;
+  }
+  .sp-about li .sp-desc{
+    font-size: 12px;
+  }
+  .intro-img{
+    margin-top: 30px;
+  }
+}
